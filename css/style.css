@@ -857,3 +857,79 @@ body {
     transform: translateY(0);
     opacity: 1;
 }
+.btn_caller {
+    display: block;
+    position: fixed;
+    right: 50px;
+    bottom: 55px;
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, .26);
+    border-radius: 34px 34px 34px 8px;
+    padding: 7px 10px 10px;
+    color: #fff !important;
+    border-color: transparent #f58220 transparent transparent;
+    line-height: 62px;
+    cursor: pointer;
+    text-align: center;
+    background: linear-gradient(45deg, #11859b, #2af149);
+}.phicon {
+    font-size: 20px;
+    margin-top: 8px;
+}.modal_caller {
+    position: fixed;
+    width: 335px;
+    height: 115px;
+    bottom: 120px;
+    right: 55px;
+    z-index: 99999999;
+    background: #fff;
+    display: none;
+    border-bottom: 1px solid #e2dfdf;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, .1);
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+    border-radius: 20px;
+}.head_caller {
+    width: 100%;
+    height: 20px;
+    padding: 1.5em 5%;
+    overflow: hidden;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-image: linear-gradient(-225deg, #1fc06d 55%, #11859b);
+}.content_caller {
+    padding: 8% 5% 5% 10%;
+    font-size: 12px;
+    line-height: 20px;
+}.contact_txt_caller {
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    top: -13px;
+    left: 14px;
+}.close_call_btn_caller {
+    display: block;
+    position: fixed;
+    right: 50px;
+    bottom: 55px;
+    z-index: 999;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, .26);
+    cursor: pointer;
+    border-radius: 34px 34px 34px 8px;
+    padding: 7px 10px 10px;
+    background: linear-gradient(45deg, #11859b, transparent);
+    color: #fff !important;
+    border-color: transparent #f58220 transparent transparent;
+    text-align: center;
+    line-height: 48px;
+}.popupNumber {
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+}.modal_caller.active{ display: block;}
